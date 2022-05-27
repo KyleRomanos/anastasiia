@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import { BsFilePersonFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { ImLocation2 } from 'react-icons/im'
 import { MdEmail, MdBusiness } from 'react-icons/md'
-import {FaCalculator} from 'react-icons/fa';
+
 import { RiInstagramFill } from 'react-icons/ri'
 import { AiFillFacebook } from 'react-icons/ai'
 

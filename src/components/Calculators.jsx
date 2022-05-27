@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-scroll';
 import {FaCalculator} from 'react-icons/fa';
 const Calculators = () => {
   return (
@@ -52,33 +51,3 @@ Compare the financial advantage of renting and buying based on your current mont
 }
 
 export default Calculators
-
-const data = [
-    {
-        Question: 'Maximum Mortgage',
-        answer: "Calculate the maximum mortgage amount you qualify for based on your income. A great tool for buyers.",
-        url: 'https://www.roarmortgage.com/calculators/maximum_mortgage.html',
-    },
-    {
-        Question: 'Mortgage Analyzer',
-        answer: "Calculate your mortgage payment. Create an amortization schedule. Discover what you will owe in 5 years.",
-        url: 'https://www.roarmortgage.com/calculators/mortgage_analyzer.html',
-    },
-
-    {
-        Question: 'Payment Analyzer',
-        answer: "Calculate your mortgage payment for several payment frequencies (weekly, bi-weekly, semi-monthly and monthly).",
-        url: 'https://www.roarmortgage.com/calculators/payment_analyzer.html',
-    },
-    {
-        Question: 'Prepayment Analyzer',
-        answer: "Calculate your mortgage payment. Discover how many years you will shorten your amortization and how much interest savings you will realize by making a prepayment (lump sum) on your mortgage.",
-        url: 'https://www.roarmortgage.com/calculators/prepayment_analyzer.html',
-    },
-    {
-        Question: 'Rent or Buy Analyzer',
-        answer: "Compare the financial advantage of renting and buying based on your current monthly rent, funds towards your down payment and your desired monthly payment if you purchased a home.",
-        url: 'https://www.roarmortgage.com/calculators/rentbuy.html',
-    },
-   
-]

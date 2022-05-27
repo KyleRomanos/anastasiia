@@ -34,7 +34,7 @@ const Solutions = () => {
              </li>
          </ul>
      <div className="btn-container pt-8">
-     <a id="consult_btn" href="https://velocityapp.newton.ca/public/#/clientJourney/slides/home?shortCode=1ljh3pwduz0d4&lang=en-ca" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
+     <a id="consult_btn" href="https://velocity.newton.ca/sso/public.php?sc=1ljh3pwduz0d4" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
            Apply Now
              <span className="group-hover:rotate-90 duration-300">
              <HiArrowNarrowRight className="ml-3 display: inline-block" />
@@ -167,7 +167,7 @@ pocket and not the banks.</p>
    
 </ul>
 <div className="btn-container pt-8 pb-8">
-<a id="consult_btn" href="ttps://velocityapp.newton.ca/public/#/clientJourney/slides/home?shortCode=1ljh3pwduz0d4&lang=en-ca" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-2 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
+<a id="consult_btn" href="ttps://velocityapp.newton.ca/public/#/clientJourney/slides/home?shortCode=1ljh3pwduz0d4&lang=en-ca" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-4 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
    Start Your Application Today
    <span className="group-hover:rotate-90 duration-300">
    <HiArrowNarrowRight className="ml-3 display: inline-block" />

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll';
-import {FaQuestionCircle, FaCalculator, FaPhoneAlt, FaExternalLinkSquareAlt, FaVideo} from 'react-icons/fa';
+import {FaQuestionCircle, FaCalculator, FaExternalLinkSquareAlt} from 'react-icons/fa';
 const Resources = () => {
   return (
     <div name="resources" className='text-center h-5/6 lg:pb-36 w-full align-middle'>

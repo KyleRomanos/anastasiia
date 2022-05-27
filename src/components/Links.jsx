@@ -1,6 +1,5 @@
 import React from 'react'
-import {Link} from 'react-scroll';
-import {FaQuestionCircle, FaCalculator, FaPhoneAlt, FaExternalLinkSquareAlt, FaVideo} from 'react-icons/fa';
+
 const Links = () => {
   return (
     <div name="links" className='max-w-[1000px] mx-auto lg:pt-20 p-4 flex-col justify-center w-full h-full'>
