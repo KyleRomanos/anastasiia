@@ -20,14 +20,6 @@ const Contact = () => {
             <span id="resource-id" className='my-2 align-middle p-2 lg:pt-4 rounded hover:border-blue-600 duration-300'>
               <div id="contact-top">
                 <h3 id="contact-h3" className="lg:text-2xl font-bold text-black my-4 mx-auto" >Contact Us
-                <div id="contact-mid">
-                    <a href='https://www.instagram.com/mortgages.with.anastasiia/'>
-                        <RiInstagramFill className='text-blue-600 hover:text-blue-500 duration-300 ease cursor-pointer'/>
-                    </a>
-                    <a href='https://www.facebook.com/mortgageswithanastasiia/'>
-                        <AiFillFacebook className='text-blue-600 hover:text-blue-500 duration-300 ease cursor-pointer'/>
-                    </a>
-                </div>
                 </h3>
             </div>
         <div id='contact-container' className='grid sm:grid-cols-1 md:grid-cols-1'>
@@ -50,6 +42,15 @@ const Contact = () => {
             <p id="contact-p"><a href='https://www.mortgageingenuity.ca/' id="home_p" className="sm:text-12px text-black hover:text-blue-600 duration-300">
                 <MdBusiness className="fill-current display: inline mr-1 text-blue-600"/>Mortgage InGenuity Inc.</a></p><br></br> 
         </div>
+
+        <div id="contact-mid">
+                    <a href='https://www.instagram.com/mortgages.with.anastasiia/'>
+                        <RiInstagramFill className='text-blue-600 hover:text-blue-500 duration-300 ease cursor-pointer mr-1 text-2xl'/>
+                    </a>
+                    <a href='https://www.facebook.com/mortgageswithanastasiia/'>
+                        <AiFillFacebook className='text-blue-600 hover:text-blue-500 duration-300 ease cursor-pointer text-2xl'/>
+                    </a>
+                </div>
     </span>
   
     <span id="resource-id" className='my-2 align-middle p-2 lg:pt-4 rounded hover:border-blue-600 duration-300'>

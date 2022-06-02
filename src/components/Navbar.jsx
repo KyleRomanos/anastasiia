@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center bg-[#f8f9fb] lg:px-12 text-black-400 sm:px-2">
         <div>
-            <h1 id="nav_brand" className="font-bold lg:text-2xl sm:ml-2 hover:text-blue-600 duration-300">
+        <h1 id="nav_brand" className="font-bold lg:text-2xl sm:ml-2 hover:text-blue-600 duration-300 lg:pl-16">
                 <Link to="home" smooth={true} duration={500}>MORTGAGES WITH ANASTASIIA </Link>
             </h1>
         </div>
