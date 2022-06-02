@@ -59,7 +59,7 @@ const Solutions = () => {
      </span>
               </span>
   
-              <div id="home_main" className="lg:flex-1 lg:pt-12 lg:my-auto mx-auto lg:pl-28 sm:mx-8">
+              <div id="home_main" className="lg:flex-1 lg:pt-12 lg:my-auto mx-auto lg:pl-64 sm:mx-8">
         <h3 id="home_h4" className="lg:text-2xl font-bold text-[#000000] mx-auto lg:pt-10">Refinancing your Mortgage?</h3>
          <p id="home_p2" className="text-[#000000] lg:pr-4 pb-2 lg:my-2 max-w[600px]">Let's review your options:</p>
          <ul class="solution-list"> 
@@ -94,7 +94,7 @@ const Solutions = () => {
               </div>
 
               <span id="resource-id" className='my-2 lg:ml-2 lg:pt-14 lg:align-middle p-2'>
-          <div id="home_main" className="lg:flex-1 lg:my-auto px-2  mx-auto lg:pl-16 sm:mx-8 ">
+          <div id="home_main" className="lg:flex-1 lg:my-auto px-2  mx-auto lg:pl-6 sm:mx-8 ">
        <h3 id="home_h4" className="lg:text-2xl font-bold text-[#000000] mx-auto">Need an alternative solution
 not available at the bank?</h3>
          <p id="home_p" className="text-[#000000] pr-4 pb-2 lg:my-2 max-w[600px]">
@@ -145,7 +145,7 @@ lenders</p>
 </span>
     </span>
 
-    <div id="solutions_main" className="lg:flex-1 lg:pt-2 lg:my-auto mx-auto lg:pl-28 lg:pr-8">
+    <div id="solutions_main" className="lg:flex-1 lg:pt-2 lg:my-auto mx-auto lg:pl-36">
 <h3 id="home_h4-r" className="lg:text-2xl font-bold text-[#000000] mx-auto">Mortgage coming up for 
 renewal?</h3>
 <p id="home_p" className="text-[#000000] pr-4 pb-2 lg:my-2 max-w[600px]">Now is the perfect time to start your 

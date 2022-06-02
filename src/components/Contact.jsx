@@ -57,8 +57,8 @@ const Contact = () => {
             <div className="pb-2">
             </div>
             <input className="border hover:border-blue-600 outline-0 outline-blue-600 duration-300 my-2 mx-2 py-2 px-2 rounded text-gray-600 text-left" type="text" placeholder="Name" name="name" required />
-           <input className="border hover:border-blue-600 outline-0 outline-blue-600 duration-300 my-2 mx-2 py-2 px-2  roundedtext-gray-600 text-left" type="email" placeholder="Email" name="email" required/>
-           <input className="border hover:border-blue-600 outline-0 outline-blue-600 duration-300 my-2 mx-2 py-2 px-2 roundedtext-gray-600 text-left" type="phone" placeholder="Phone" name="phone" required/>
+           <input className="border hover:border-blue-600 outline-0 outline-blue-600 duration-300 my-2 mx-2 py-2 px-2  rounded text-gray-600 text-left" type="email" placeholder="Email" name="email" required/>
+           <input className="border hover:border-blue-600 outline-0 outline-blue-600 duration-300 my-2 mx-2 py-2 px-2 rounded text-gray-600 text-left" type="phone" placeholder="Phone" name="phone" required/>
             <textarea name="message" rows="6"  placeholder='Type your message here' className="border hover:border-blue-600 outline-blue-600 outline-0 duration-300 px-2 mx-2 text-left rounded text-black" required />
 
             <button id="consult_btn" type="submit" class="button" className="bg-transparent mx-4 hover:bg-blue-600 text-blue-600 hover:text-white lg:px-32 py-2 mb-2 mt-2 text-center text-bold border border-blue-600 hover:border-transparent duration-300 rounded-full">
