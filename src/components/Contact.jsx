@@ -17,29 +17,29 @@ const Contact = () => {
       <div name="contact" className='max-w-[800px] mx-auto lg:pt-10 p-2 flex-col justify-center w-full h-full'>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:gap-2">
           {/* <ul className='align-middle font-bold'> */}
-            <span id="resource-id" className='my-2 align-middle p-2 lg:pt-4 rounded hover:border-blue-600 duration-300'>
+            <span id="contact-id" className='my-2 align-middle p-2 lg:pt-4 rounded hover:border-blue-600 duration-300'>
               <div id="contact-top">
                 <h3 id="contact-h3" className="lg:text-2xl font-bold text-black my-4 mx-auto" >Contact Us
                 </h3>
             </div>
         <div id='contact-container' className='grid sm:grid-cols-1 md:grid-cols-1'>
-            <p id="contact-p"><a href="https://www.google.ca/maps/place/Anastasiia+Fedorova+-+Mortgage+Agent+at+Mortgage+InGenuity+Inc./@43.4481952,-80.5053419,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf52cf4660445:0xb5ceff7336a5e3e0!8m2!3d43.4481952!4d-80.5031532"id="home_p" className=" text-black hover:text-blue-600 duration-300" name="contact">
+            <p id="contact-p"><a href="https://www.google.ca/maps/place/Anastasiia+Fedorova+-+Mortgage+Agent+at+Mortgage+InGenuity+Inc./@43.4481952,-80.5053419,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf52cf4660445:0xb5ceff7336a5e3e0!8m2!3d43.4481952!4d-80.5031532" className=" text-black hover:text-blue-600 duration-300" name="contact">
                 <BsFilePersonFill className="fill-current display: inline mr-1 lg:font-bold text-blue-600"/>
                     Anastasiia Fedorova | Mortgage Agent
             </a></p><br/>
-            <p id="contact-p"><a href="https://www.google.ca/maps/place/Anastasiia+Fedorova+-+Mortgage+Agent+at+Mortgage+InGenuity+Inc./@43.4481952,-80.5053419,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf52cf4660445:0xb5ceff7336a5e3e0!8m2!3d43.4481952!4d-80.5031532" id="home_p" className="text-black hover:text-blue-600 duration-300">
+            <p id="contact-p"><a href="https://www.google.ca/maps/place/Anastasiia+Fedorova+-+Mortgage+Agent+at+Mortgage+InGenuity+Inc./@43.4481952,-80.5053419,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf52cf4660445:0xb5ceff7336a5e3e0!8m2!3d43.4481952!4d-80.5031532" className="text-black hover:text-blue-600 duration-300">
                 <ImLocation2 className="fill-current display: inline mr-1 text-blue-600"/>
                 178 Victoria St. S, Kitchener, ON N2G 2B9
             </a></p><br/>
-            <p id="contact-p"><a href="mailto:anastasiia@mortgageingenuity.ca" id="home_p" className="text-black hover:text-blue-600 duration-300">
+            <p id="contact-p"><a href="mailto:anastasiia@mortgageingenuity.ca"  className="text-black hover:text-blue-600 duration-300">
                 <MdEmail className="fill-current display: inline mr-1 text-blue-600"/>
                 anastasiia@mortgageingenuity.ca
             </a></p><br></br>
 
-            <p id="contact-p"><a href="tel:16475755714" id="home_p" className="text-black hover:text-blue-600 duration-300">
+            <p id="contact-p"><a href="tel:16475755714" className="text-black hover:text-blue-600 duration-300">
                 <BsFillTelephoneFill className="fill-current display: inline mr-1 text-blue-600"/>
                 647-575-5714</a>  </p><br></br>
-            <p id="contact-p"><a href='https://www.mortgageingenuity.ca/' id="home_p" className="sm:text-12px text-black hover:text-blue-600 duration-300">
+            <p id="contact-p"><a href='https://www.mortgageingenuity.ca/'  className="sm:text-12px text-black hover:text-blue-600 duration-300">
                 <MdBusiness className="fill-current display: inline mr-1 text-blue-600"/>Mortgage InGenuity Inc.</a></p><br></br> 
         </div>
 
