@@ -13,8 +13,8 @@ const Footer = () => {
         <h1
           className="lg:text-1xl text-2xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5 text-black">
-          <span className="text-blue-600">Join</span> Anastasiia's Newsletter
-          <p className="text-[12px] text-black">to receive industry news and updates in your mailbox</p>
+          <span className="text-blue-600 lg:pl-12">Join</span> Anastasiia's Newsletter
+          <p className="text-[12px] text-black lg:pl-12">to receive industry news and updates in your mailbox</p>
         </h1>
         
         <div>
@@ -27,7 +27,7 @@ const Footer = () => {
           required/>
           <button type="submit"
             className="bg-blue-600 hover:bg-blue-500 duration-300 px-5 py-2.5 
-           rounded-full text-white md:w-auto w-full">
+           rounded-full text-white md:w-auto w-full lg:mr-2">
            Subscribe
           </button>
           </form>
@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
 
       <div className="md:flex md:justify-between md:items-center sm:px-12 py-6 px-4">
-          <div>
+          <div className="lg:pl-12">
       <h1 className="font-bold text-1xl text-blue-600">Mortgages With Anastasiia </h1>
       <a href="mailto:anastasiia@mortgageingenuity.ca" className="py-2 lg:my-2 max-w[600px] w-[380px]  text-black hover:text-blue-600 duration-300">
         <MdEmail className="fill-current display: inline mr-1 text-blue-600"/>
@@ -67,7 +67,7 @@ const Footer = () => {
     Useful Links</Link></p>
 
 </div>
-<div>
+<div className="lg:pr-2">
       <h1 className="font-bold hover:text-blue-600 duration-300">
       <a href='https://www.mortgageingenuity.ca/'>
           Mortgage InGenuity Inc.</a></h1>

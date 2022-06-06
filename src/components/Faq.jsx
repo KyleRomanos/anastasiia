@@ -99,14 +99,14 @@ function Faq() {
     return (
         <div name="faq" className="faq_wrapper"> 
 
-            <div className="accordion px-2"> 
-            <h2 className='lg:text-2xl font-bold text-center lg:pt-20 py-0'>Frequently Asked Questions</h2>
-        <p className='text-center pb-6'>Curious to learn more? We love that about you!</p>
+            <div className="accordion px-0 mt-4"> 
+            {/* <h2 className='lg:text-2xl font-bold text-center lg:pt-20 py-0'>Frequently Asked Questions</h2> */}
+        
                 {data.map((item, i) => (
                     <div className="item">
                         <div className="title" onClick={()=> toggle(i)}>
                             <h3 className="font-bold">{item.Question}</h3>
-                            <span className="text-2xl pl-6">{selected === i ? '-' : '+'}</span>
+                            <span className="text-2xl pl-6 lg:pr-2">{selected === i ? '-' : '+'}</span>
                         </div>
                         <div id="content" className={selected === i ? 'content show' : 'content' }>{item.answer}</div>
                         </div>

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Links = () => {
   return (
-    <div name="links" className='max-w-[1000px] mx-auto lg:pt-20 p-4 flex-col justify-center w-full h-full'>
-        <h2 className='lg:text-2xl font-bold text-center pt-4 pb-2 align-middle'>Useful Mortgage Links</h2>
-        <p className='pb-2'>Below you will find a wide variety of resources and information relating to the mortgage process. We're here to help and we encourage you to contact us if you have any questions.</p>
+    <div name="links" className='max-w-[1000px] mx-auto  p-4 flex-col justify-center w-full h-full'>
+ 
+        <p className='pb-2 text-left'>Below you will find a wide variety of resources and information relating to the mortgage process. We're here to help and we encourage you to contact us if you have any questions.</p>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
         {/* <ul className='align-middle font-bold'> */}
             <span id="resource-id" className='my-2 align-middle border p-2 pt-3 rounded hover:border-blue-600 duration-300'>
