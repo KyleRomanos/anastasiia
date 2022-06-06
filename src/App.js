@@ -8,14 +8,27 @@ import Contact from './components/Contact';
 
 import Footer from './components/Footer';
 import {React} from 'react';
-
+import {Helmet} from 'react-helmet';
 
 function App() {
-
 
   
   return (
     <div className="App">
+            <Helmet>
+        <title>Mortgages with Anastasiia</title>
+        <meta 
+        name="Anastasiia Fedorova"
+        content="Providing solutions for all your mortgage needs for any life situation"
+        />
+        <meta property="og:url" content="mortgageswithanastasiia.ca" />
+        <meta property="og:site_name" content="anastasiia fedorova - Mortgages" />
+        <meta property="og:locale" content="en_CA" />
+        <meta property="og:type" content="mortgages" />
+        <meta property="og:company" content="mortgage ingenuity" />
+        <meta property="og:branch" content="mortgage architects" />
+        
+      </Helmet>
      <Navbar />
      <Home />
      <Solutions />
