@@ -22,7 +22,7 @@ function App() {
         content="Providing solutions for all your mortgage needs for any life situation"
         />
         <meta property="og:url" content="mortgageswithanastasiia.ca" />
-        <meta property="og:site_name" content="anastasiia fedorova - Mortgages" />
+        <meta property="og:name" content="anastasiia fedorova" />
         <meta property="og:locale" content="en_CA" />
         <meta property="og:type" content="mortgages" />
         <meta property="og:company" content="mortgage ingenuity" />
