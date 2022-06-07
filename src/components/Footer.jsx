@@ -56,14 +56,14 @@ const Footer = () => {
       <div>
       <h1 className="font-bold">Resources</h1>
       <p className="hover:text-blue-600 duration-300">
-      <Link to="calculators" smooth={true} duration={500}>
+      <Link to="resources" smooth={true} duration={500}>
         Mortgage Calculators</Link></p>
 <p className="hover:text-blue-600 duration-300">
-<Link to="faq" smooth={true} duration={500}>
+<Link to="resources" smooth={true} duration={500}>
     Frequently Asked Questions
     </Link></p>
 <p className="hover:text-blue-600 duration-300">
-<Link to="links" smooth={true} duration={500}>
+<Link to="resources" smooth={true} duration={500}>
     Useful Links</Link></p>
 
 </div>

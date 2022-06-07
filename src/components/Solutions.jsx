@@ -172,7 +172,7 @@ pocket and not the banks.</p>
    
 </ul>
 <div className="btn-container pt-8 pb-8">
-<a id="consult_btn" href="ttps://velocityapp.newton.ca/public/#/clientJourney/slides/home?shortCode=1ljh3pwduz0d4&lang=en-ca" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-4 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
+<a id="consult_btn" href="https://velocity.newton.ca/sso/public.php?sc=1ljh3pwduz0d4" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-4 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
    Start Your Application Today
    <span className="group-hover:rotate-90 duration-300">
    <HiArrowNarrowRight className="ml-3 display: inline-block" />
@@ -191,7 +191,7 @@ pocket and not the banks.</p>
      <h1 id="home_h4" className="lg:text-2xl font-bold text-[#000000] pb-2 mx-auto" >Any Questions?</h1>    <p id="home_p-bottom">I'm here to help answer any questions you may have. Learn more about mortgages by checking the Frequently asked Questions section</p>
   
      <div className="btn-container pt-8 pb-20">
-     <Link to="faq" smooth={true} duration={500} class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-4 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
+     <Link to="resources" smooth={true} duration={500} class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-4 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
             Visit FAQ
              <span className="group-hover:rotate-90 duration-300">
              <HiArrowNarrowRight className="ml-3 display: inline-block" />
