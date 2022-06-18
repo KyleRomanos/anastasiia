@@ -15,12 +15,14 @@ function App() {
   
   return (
     <div className="App">
-            <Helmet>
+      <Helmet>
         <title>Mortgages with Anastasiia</title>
         <meta 
         name="Anastasiia Fedorova"
-        content="Providing solutions for all your mortgage needs for any life situation"
+        content="Providing solutions for all your mortgage needs in any life situation"
         />
+        <meta name="description" content="Providing solutions for all your mortgage needs in any life situation" />
+          
         <meta property="og:url" content="mortgageswithanastasiia.ca" />
         <meta property="og:name" content="anastasiia fedorova" />
         <meta property="og:locale" content="en_CA" />
