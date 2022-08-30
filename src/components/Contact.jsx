@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+
 import { BsFilePersonFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { ImLocation2 } from 'react-icons/im'
 import { MdEmail, MdBusiness } from 'react-icons/md'
@@ -65,7 +65,7 @@ const Contact = () => {
             <button id="consult_btn" type="submit" class="button" className="bg-transparent mx-4 hover:bg-blue-600 text-blue-600 hover:text-white lg:px-32 py-2 mb-2 mt-2 text-center text-bold border border-blue-600 hover:border-transparent duration-300 rounded-full">
           Send
            <span className="group-hover:rotate-90 duration-300">
-            <HiArrowNarrowRight className="ml-3 display: inline-block" />
+            <MdEmail className="ml-1 mb-1 display: inline-block" />
             
            </span>
             

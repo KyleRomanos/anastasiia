@@ -17,10 +17,7 @@ function App() {
     <div className="App">
       <Helmet>
         <title>Mortgages with Anastasiia</title>
-        <meta 
-        name="Anastasiia Fedorova"
-        content="Providing solutions for all your mortgage needs in any life situation"
-        />
+        <meta name="Anastasiia Fedorova" content="Providing solutions for all your mortgage needs in any life situation"/>
         <meta name="description" content="Providing solutions for all your mortgage needs in any life situation" />
           
         <meta property="og:url" content="mortgageswithanastasiia.ca" />

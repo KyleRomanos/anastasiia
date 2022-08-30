@@ -34,7 +34,7 @@ function Resources() {
         <div name="resources" className="faq_wrapper"> 
 
             <div className="accordion lg:px-2"> 
-            <h2 className='lg:text-2xl font-bold text-center pt-20 py-2'>Additional Resources</h2>
+            <h2 className='lg:text-4xl font-bold text-center pt-20 py-2'>Additional Resources</h2>
        
                 {resourceData.map((item, i) => (
                     <div className="resourceItem">
