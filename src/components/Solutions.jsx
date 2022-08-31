@@ -13,27 +13,12 @@ const Solutions = () => {
     return (
       <div name="solutions" className='lg:pl-20 pr-auto pt-4 lg:pt-16 flex-col justify-center w-full h-full'>
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-2">
-        {/* <ul className='align-middle font-bold'> */}
+ 
         <span id="resource-id" className='lg:pt-16 align-middle w-full'>
           <div id="solutions_main" className="lg:flex-1 lg:my-auto mx-auto">
        <h3 id="home_h4" className="lg:text-4xl font-bold text-[#000000] mx-auto">What solutions do we offer?</h3>
          <p id="home_p" className="text-[#000000] lg:text-2xl pb-2 lg:my-2">We can help with all home purchasing needs for first-time homebuyers to cottages and second homes</p>
-         {/* <ul class="solution-list lg:text-1xl"> 
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center">Pre-Approvals</p>
-             </li>
-            <li>
-                <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center">First-Time Homebuyers</p>
-            </li>
       
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center">Growing Your Investment Portfolio</p>
-            </li>
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center">Cottages and Second Home</p>
-            </li>
-
-         </ul> */}
      <div className="btn-container pt-8 pb-4">
      <a id="consult_btn" href="https://velocity.newton.ca/sso/public.php?sc=1ljh3pwduz0d4" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
            Apply Now
@@ -63,23 +48,7 @@ const Solutions = () => {
         <div id="solutions_main" className="lg:flex-1 lg:pt-12 sm:pt-4 lg:my-auto mx-auto">
         <h3 id="home_h4" className="lg:text-4xl font-bold text-[#000000] mx-auto md:pt-10">Refinancing your Mortgage?</h3>
          <p id="home_p2" className="text-[#000000] lg:text-2xl pb-2 lg:my-2 max-w[600px]">Let's review your options</p>
-         {/* <ul class="solution-list"> 
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px]">Exploring lower rates</p>
-             </li>
-             <li>
-                <p id="home_p-bottom" className="text-[#000000] max-w[500px]">Financing a home renovation</p>
-             </li>
-             <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px]">Building better credit</p>
-             </li>
-
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px]">Leveraging home equity</p>
-            </li>
-
-
-         </ul> */}
+       
      <div className="btn-container pt-8 pb-4">
     <a id="consult_btn" href="https://go.oncehub.com/AnastasiiaFedorova" class="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
              Book a Meeting
@@ -101,21 +70,7 @@ const Solutions = () => {
 We have access to
 products for self employed professionals and clients with challenged credit
 </p>
-         {/* <ul class="solution-list"> 
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center">Self-Employed professionals</p>
-             </li>
-            <li>
-                <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center"> Clients with challenged credit</p>
-            </li>
-
-            <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center"> Equity-based lending</p>
-            </li>
-             <li>
-                 <p id="home_p-bottom" className="text-[#000000] max-w[500px] items-center">Reverse Mortgage solutions</p>
-             </li>
-         </ul> */}
+      
      <div className="btn-container pt-8 pb-1 lg:mb-12">
      <Link to="contact" smooth={true} duration={500} Contactclass="button" className="bg-transparent hover:bg-blue-600 text-blue-600 hover:text-white px-8 py-5 mb-2  border border-blue-600 hover:border-transparent duration-300 rounded-full">
            Contact us Today
@@ -178,9 +133,6 @@ renewal?</h3>
      </div>
             </div>
 
-            
-
-    // </div>
   
     )
   }
