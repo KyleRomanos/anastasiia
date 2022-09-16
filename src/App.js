@@ -30,7 +30,7 @@ function App() {
       </Helmet>
      <Navbar />
      <Home />
-     <Solutions />
+     {/* <Solutions /> */}
      <Resources />
     <Contact />
     
